@@ -14,11 +14,24 @@ So then I decided - let python do the dirty work for me.
 
 
 
-The solver is a classical optimized backtracking algorithm. It find an empty spot in the lowest possible row, and tries to fit different pieces into it.
-Once it puts a piece, it moves to the next one, until it is stuck and have to go back - or unil it succeeds.
+Language and tools: Python, Numpy, Matplotlib for visualization
 
-The program can shows the progress visually every 500 steps.
+Algorithmic Approach
 
-When finished, it visualises the solution on 3D piece by piece.
+The core of the solution is a brute-force approach optimized by key algorithmic and data structure choices, crucial for efficiently navigating the vast search space:
 
-I used Numpy for represinting and manipulating the 3D cube and pieces.
+1. Recursive Backtracking: The solve function uses a Depth-First Search (DFS) with recursive backtracking. It attempts to place pieces into the next available empty cell (empty_spots), and if a path leads to a dead-end, it efficiently backtracks to the previous valid state.
+
+2. Symmetry and Rotation Management: The all_rotations function generates all 24 possible spatial rotations for each piece before the search begins. This pre-calculation and removal of duplicate forms minimize the search space during the runtime.
+
+3. Optimized Placement Check: The check_placement function leverages NumPy’s vectorized operations. Instead of slow, explicit Python loops, it performs an element-wise multiplication on the placed piece and the current board state. Overlaps are instantly detected when the result contains a negative value, ensuring near-optimal performance for placement validation.
+
+
+
+Key Implementation Highlights
+- 3D Array Management: The cube is represented as a CUBE_SIZE x CUBE_SIZE x CUBE_SIZE **NumPy array**, allowing for intuitive indexing and fast manipulation of the 3D grid.
+- Vectorized Overlap Detection: Placement verification is highly optimized using NumPy.
+- Dynamic Piece Handling: Pieces are dynamically padded (np.zeros) and rotated/rolled (np.roll) to efficiently check every possible placement combination on the board.
+
+Result Visualization
+- The final solution is visualized using Matplotlib's voxels function, clearly displaying the solved cube with each of the 13 unique parts rendered in a distinct color .
