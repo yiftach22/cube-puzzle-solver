@@ -1,12 +1,12 @@
-In a little Christmas market in Italy, I found this beautiful hand-made wood cube puzzle.
+In a little Christmas market in Italy, I found this beautiful hand-made 5X5 wood cube puzzle.
 The kind that each piece is different, and there is only one way to arrange the pieces into a cube.
 I bought it already solved, in its original wood box.
 
 The first thing I did when coming back home, was taking everything out, without even taking a picture of the solved cube.
 That was a mistake.
 
-The 3*3 or 4*4 versions of this are pretty easy, or at least solvable, and if you get stuck - there are tons of youtubes on this.
-But the 5*5 was just too much. whatever I tried, didn't work.
+The 3X3 or 4X4 versions of this are pretty easy, or at least solvable, and if you get stuck - there are tons of youtubes on this.
+But the 5X5 was just too much. whatever I tried, didn't work.
 
 And the worst part - you can't put the pieces back in the box if you can't solve it!
 
@@ -35,3 +35,12 @@ Key Implementation Highlights
 
 Result Visualization
 - The final solution is visualized using Matplotlib's voxels function, clearly displaying the solved cube with each of the 13 unique parts rendered in a distinct color .
+
+[unsolved](https://github.com/user-attachments/assets/85c37032-e197-45d1-b322-97d4c3d2d5f5)
+
+<img width="640" alt="Figure_4" src="https://github.com/user-attachments/assets/85c37032-e197-45d1-b322-97d4c3d2d5f5">
+<img width="640" alt="Figure_4" src="https://github.com/user-attachments/assets/8c65b0e0-264a-4aaa-adf5-527ea89b4a64">
+
+<img width="640" height="480" alt="Figure_4" src="https://github.com/user-attachments/assets/7698abfb-993f-4cac-a929-c3512e57da42" />
+<img width="640" height="480" alt="Figure_5" src="https://github.com/user-attachments/assets/09355d55-4fdd-40cd-88a7-3c14d49ec3b4" />
+
