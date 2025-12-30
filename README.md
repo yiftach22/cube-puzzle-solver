@@ -1,4 +1,4 @@
-In a little Christmas market in Italy, I found this beautiful hand-made 5X5 wood cube puzzle.
+In a small Christmas market in Italy, I found this beautiful hand-made 5X5 wood cube puzzle.
 The kind that each piece is different, and there is only one way to arrange the pieces into a cube.
 I bought it already solved, in its original wood box.
 
